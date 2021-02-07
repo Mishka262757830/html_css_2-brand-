@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="product_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/73dd680229.js"></script>
+    <title>Checkout</title>
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="header_wrapper">
+            <div class="logo"><img src="images/logo.svg" alt="logo"><span class="brand">Bran<span class="d">d</span></span></div>
+            <div class="search">
+                <button type="submit" class="btn">Browse <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                <label>
+                    <input type="search" placeholder="Search For Item...">
+                </label>
+                <button type="submit" class="magnifer"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            <div class="cart_and_button">
+                <a href="#"><img class="cart" src="images/cart.png" alt=""></a>
+                <button class="my_acc">My Account <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="navigation">
+    <nav class="nav">
+        <a class="nav_link" href="#">Home</a>
+        <a class="nav_link" href="#">Man</a>
+        <a class="nav_link" href="#">Women</a>
+        <a class="nav_link" href="#">Kids</a>
+        <a class="nav_link" href="#">Accoseries</a>
+        <a class="nav_link" href="#">Featured</a>
+        <a class="nav_link" href="#">Hot details</a>
+    </nav>
+</div>
+
+<div class="new_arrivals">
+    <div class="container">
+        <div class="arrivals_inner">
+            <div class="text">New Arrivals</div>
+            <div class="links">
+                <a class="arrival_link" href="#">Home/</a>
+                <a class="arrival_link" href="#">Men/</a>
+                <a class="arrival_link" href="#">New Arrivals</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="checkout_wrapper">
+            <div class="check_accordeon">
+                <div class="check_accordeon_item">
+                    <input class="check_accordeon_input" type="checkbox" id="check_accordeon_1">
+                    <label class="check_accordeon_title" for="check_accordeon_1">01. Shipping Adress</label>
+                    <div class="check_accordeon_text">
+                        <div class="check_accordeon_link">
+                            <span class="guest_reg">Check as a guest or register</span>
+                            <span class="reg">Register with us for future convenience</span>
+                            <div class="chose_way">
+                                <form action="#">
+                                <lable class="guest_name"><label>
+                                    <input type="radio">
+                                </label>Checkout As Guest</lable>
+                                <lable class="reg_name"><label>
+                                    <input type="radio">
+                                </label>Register</lable>
+                                </form>
+                            </div>
+                            <span class="guest_reg">Register And Save Time!</span>
+                            <span class="reg">Register with us for future convenience</span>
+                            <div class="check_comms">
+                                <span class="fast"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</span>
+                                <span class="easy"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Easy access to your order history and status</span>
+                            </div>
+                            <button class="btn_chose">Continue</button>
+                        </div>
+                    </div>
+                    <div class="check_accordeon_text">
+                        <div class="check_accordeon_link">
+                            <span class="guest_reg">Already registed?</span>
+                            <span class="reg">Please log in below</span>
+                            <div class="enter_info">
+                                <span class="email_check">Email Address <sup>*</sup></span>
+                                <form action="#">
+                                <label>
+                                    <input type="email">
+                                </label>
+                                <span class="email_check">Password <sup>*</sup></span>
+                                <label>
+                                    <input type="password">
+                                </label>
+                                </form>
+                                <span class="reqwired"><sup>*</sup>Required Fileds</span>
+                            </div>
+                            <div class="info_btns">
+                                <button class="btn_chose">Log In</button>
+                                <a class="forgot" href="#">Forgot Password?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="check_accordeon_item">
+                    <input class="check_accordeon_input" type="checkbox" id="check_accordeon_2">
+                    <label class="check_accordeon_title" for="check_accordeon_2">02. BILLING INFORMATION</label>
+                    <div class="check_accordeon_text">
+                        <div class="check_accordeon_link">
+                            <span class="guest_reg">Check as a guest or register</span>
+                            <span class="reg">Register with us for future convenience</span>
+                            <div class="chose_way">
+                                <form action="#">
+                                <lable class="guest_name"><label>
+                                    <input type="radio">
+                                </label>Checkout As Guest</lable>
+                                <lable class="reg_name"><label>
+                                    <input type="radio">
+                                </label>Register</lable>
+                                </form>
+                            </div>
+                            <span class="guest_reg">Register And Save Time!</span>
+                            <span class="reg">Register with us for future convenience</span>
+                            <div class="check_comms">
+                                <span class="fast"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</span>
+                                <span class="easy"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Easy access to your order history and status</span>
+                            </div>
+                            <button class="btn_chose">Continue</button>
+                        </div>
+                    </div>
+                    <div class="check_accordeon_text">
+                        <div class="check_accordeon_link">
+                            <span class="guest_reg">Already registed?</span>
+                            <span class="reg">Please log in below</span>
+                            <div class="enter_info">
+                                <form action="#">
+                                <label class="email_check">Email Address <sup>*</sup></label>
+                                <label>
+                                    <input type="email">
+                                </label>
+                                <label class="email_check">Password <sup>*</sup></label>
+                                <label>
+                                    <input type="password">
+                                </label>
+                                </form>
+                                <span class="reqwired"><sup>*</sup>Required Fileds</span>
+                            </div>
+                            <div class="info_btns">
+                                <button class="btn_chose">Log In</button>
+                                <a class="forgot" href="#">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="check_accordeon_item">
+                    <input class="check_accordeon_input" type="checkbox" id="check_accordeon_3">
+                    <label class="check_accordeon_title" for="check_accordeon_3">03. SHIPPING INFORMATION</label>
+                    <div class="check_accordeon_text">
+                        <div class="check_accordeon_link">
+                            <span class="guest_reg">Check as a guest or register</span>
+                            <span class="reg">Register with us for future convenience</span>
+                            <div class="chose_way">
+                                <form action="#">
+                                <lable class="guest_name"><label>
+                                    <input type="radio">
+                                </label>Checkout As Guest</lable>
+                                <lable class="reg_name"><label>
+                                    <input type="radio">
+                                </label>Register</lable>
+                                </form>
+                            </div>
+                            <span class="guest_reg">Register And Save Time!</span>
+                            <span class="reg">Register with us for future convenience</span>
+                            <div class="check_comms">
+                                <span class="fast"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</span>
+                                <span class="easy"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Easy access to your order history and status</span>
+                            </div>
+                            <button class="btn_chose">Continue</button>
+                        </div>
+                    </div>
+                    <div class="check_accordeon_text">
+                        <div class="check_accordeon_link">
+                            <span class="guest_reg">Already registed?</span>
+                            <span class="reg">Please log in below</span>
+                            <div class="enter_info">
+                                <form action="#">
+                                <label class="email_check">Email Address <sup>*</sup></label>
+                                <label>
+                                    <input type="email">
+                                </label>
+                                <label class="email_check">Password <sup>*</sup></label>
+                                <label>
+                                    <input type="password">
+                                </label>
+                                </form>
+                                <span class="reqwired"><sup>*</sup>Required Fileds</span>
+                            </div>
+                            <div class="info_btns">
+                                <button class="btn_chose">Log In</button>
+                                <a class="forgot" href="#">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="check_accordeon_item">
+                    <input class="check_accordeon_input" type="checkbox" id="check_accordeon_4">
+                    <label class="check_accordeon_title" for="check_accordeon_4">04. SHIPPING METHOD</label>
+                    <div class="check_accordeon_text">
+                        <div class="check_accordeon_link">
+                            <span class="guest_reg">Check as a guest or register</span>
+                            <span class="reg">Register with us for future convenience</span>
+                            <div class="chose_way">
+                                <form action="#">
+                                <lable class="guest_name"><label>
+                                    <input type="radio">
+                                </label>Checkout As Guest</lable>
+                                <lable class="reg_name"><label>
+                                    <input type="radio">
+                                </label>Register</lable>
+                                </form>
+                            </div>
+                            <span class="guest_reg">Register And Save Time!</span>
+                            <span class="reg">Register with us for future convenience</span>
+                            <div class="check_comms">
+                                <span class="fast"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</span>
+                                <span class="easy"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Easy access to your order history and status</span>
+                            </div>
+                            <button class="btn_chose">Continue</button>
+                        </div>
+                    </div>
+                    <div class="check_accordeon_text">
+                        <div class="check_accordeon_link">
+                            <span class="guest_reg">Already registed?</span>
+                            <span class="reg">Please log in below</span>
+                            <div class="enter_info">
+                                <form action="#">
+                                <label class="email_check">Email Address <sup>*</sup></label>
+                                <label>
+                                    <input type="email">
+                                </label>
+                                <label class="email_check">Password <sup>*</sup></label>
+                                <label>
+                                    <input type="password">
+                                </label>
+                                </form>
+                                <span class="reqwired"><sup>*</sup>Required Fileds</span>
+                            </div>
+                            <div class="info_btns">
+                                <button class="btn_chose">Log In</button>
+                                <a class="forgot" href="#">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="check_accordeon_item">
+                    <input class="check_accordeon_input" type="checkbox" id="check_accordeon_5">
+                    <label class="check_accordeon_title" for="check_accordeon_5">05. PAYMENT METHOD</label>
+                    <div class="check_accordeon_text">
+                        <div class="check_accordeon_link">
+                            <span class="guest_reg">Check as a guest or register</span>
+                            <span class="reg">Register with us for future convenience</span>
+                            <div class="chose_way">
+                                <form action="#">
+                                <lable class="guest_name"><label>
+                                    <input type="radio">
+                                </label>Checkout As Guest</lable>
+                                <lable class="reg_name"><label>
+                                    <input type="radio">
+                                </label>Register</lable>
+                                </form>
+                            </div>
+                            <span class="guest_reg">Register And Save Time!</span>
+                            <span class="reg">Register with us for future convenience</span>
+                            <div class="check_comms">
+                                <span class="fast"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</span>
+                                <span class="easy"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Easy access to your order history and status</span>
+                            </div>
+                            <button class="btn_chose">Continue</button>
+                        </div>
+                    </div>
+                    <div class="check_accordeon_text">
+                        <div class="check_accordeon_link">
+                            <span class="guest_reg">Already registed?</span>
+                            <span class="reg">Please log in below</span>
+                            <div class="enter_info">
+                                <form action="#">
+                                <label class="email_check">Email Address <sup>*</sup></label>
+                                <label>
+                                    <input type="email">
+                                </label>
+                                <label class="email_check">Password <sup>*</sup></label>
+                                <label>
+                                    <input type="password">
+                                </label>
+                                </form>
+                                <span class="reqwired"><sup>*</sup>Required Fileds</span>
+                            </div>
+                            <div class="info_btns">
+                                <button class="btn_chose">Log In</button>
+                                <a class="forgot" href="#">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="check_accordeon_item">
+                    <input class="check_accordeon_input" type="checkbox" id="check_accordeon_6">
+                    <label class="check_accordeon_title" for="check_accordeon_6">06. ORDER REVIEW</label>
+                    <div class="check_accordeon_text">
+                        <div class="check_accordeon_link">
+                            <span class="guest_reg">Check as a guest or register</span>
+                            <span class="reg">Register with us for future convenience</span>
+                            <div class="chose_way">
+                                <form action="#">
+                                <lable class="guest_name"><label>
+                                    <input type="radio">
+                                </label>Checkout As Guest</lable>
+                                <lable class="reg_name"><label>
+                                    <input type="radio">
+                                </label>Register</lable>
+                                </form>
+                            </div>
+                            <span class="guest_reg">Register And Save Time!</span>
+                            <span class="reg">Register with us for future convenience</span>
+                            <div class="check_comms">
+                                <span class="fast"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</span>
+                                <span class="easy"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Easy access to your order history and status</span>
+                            </div>
+                            <button class="btn_chose">Continue</button>
+                        </div>
+                    </div>
+                    <div class="check_accordeon_text">
+                        <div class="check_accordeon_link">
+                            <span class="guest_reg">Already registed?</span>
+                            <span class="reg">Please log in below</span>
+                            <div class="enter_info">
+                                <form action="#">
+                                <label class="email_check">Email Address <sup>*</sup></label>
+                                <label>
+                                    <input type="email">
+                                </label>
+                                <label class="email_check">Password <sup>*</sup></label>
+                                <label>
+                                    <input type="password">
+                                </label>
+                                </form>
+                                <span class="reqwired"><sup>*</sup>Required Fileds</span>
+                            </div>
+                            <div class="info_btns">
+                                <button class="btn_chose">Log In</button>
+                                <a class="forgot" href="#">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<div class="subscribe">
+    <div class="container">
+        <div class="subscribe_wrapper">
+            <div class="girl">
+                <div class="girl_inner"><img src="images/girl.png" alt="girl"></div>
+                <div class="girl_text">
+                    <div class="girl_main_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                    <div class="girl_name">Bin Burhan</div>
+                    <div class="girl_address">Dhaka, Bd</div>
+
+                    <div class="blocks">
+                        <div class="block"></div>
+                        <div class="block_pink"></div>
+                        <div class="block"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="email">
+                <div class="title_email">Subscribe</div>
+                <div class="subtitle_email">FOR OUR NEWLETTER AND PROMOTION</div>
+                <div class="email_inp">
+                    <form action="#"><label>
+                        <input class="field" type="email" placeholder="Enter Your Email">
+                    </label>
+                        <button class="btn_subscribe">Subscribe</button></form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="down_menu">
+        <div class="logo_down">
+            <div class="logo"><img src="images/logo.svg" alt="logo"><span class="brand">Bran<span class="d">d</span></span></div>
+            <div class="logo_discription"><article>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+
+Efficiently plagiarize 24/365 action items and focused infomediaries.
+Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</article></div>
+        </div>
+        <div class="company">
+            <div class="company_title">Company</div>
+            <a class="company_link" href="#">Home</a>
+            <a class="company_link" href="#">Shop</a>
+            <a class="company_link" href="#">About</a>
+            <a class="company_link" href="#">How It Works</a>
+            <a class="company_link" href="#">Contact</a>
+        </div>
+        <div class="information">
+            <div class="information_title">Information</div>
+            <a class="information_link" href="#">Tearms & Condition</a>
+            <a class="information_link" href="#">Privacy Policy</a>
+            <a class="information_link" href="#">How to Buy</a>
+            <a class="information_link" href="#">How to Sell</a>
+            <a class="information_link" href="#">Promotion</a>
+        </div>
+        <div class="shop_category">
+            <div class="shop_category_title">Shop category</div>
+            <a class="shop_category_link" href="#">Man</a>
+            <a class="shop_category_link" href="#">Women</a>
+            <a class="shop_category_link" href="#">Child</a>
+            <a class="shop_category_link" href="#">Apparel</a>
+            <a class="shop_category_link" href="#">Brows All</a>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="footer_wrapper">
+            <div class="copy">&copy;&nbsp;2017 Brand All Rights Reserved</div>
+            <div class="social">
+                <a class="social_link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="social_link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a class="social_link" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a class="social_link" href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                <a class="social_link" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
